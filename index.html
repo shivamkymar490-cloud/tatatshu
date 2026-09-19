@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="TATATSHU — rooted in ours, worn by tomorrow. Premium Indian-inspired streetwear.">
+  <title>TATATSHU — Clothing</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root{--ink:#171412;--cream:#f4eee5;--paper:#fbf8f2;--gold:#b58a45;--rust:#a74d32;--muted:#71685f}
+    *{box-sizing:border-box} html{scroll-behavior:smooth}
+    body{margin:0;background:var(--paper);color:var(--ink);font-family:"DM Sans",sans-serif}
+    a{text-decoration:none;color:inherit}.nav{position:sticky;top:0;z-index:20;background:rgba(251,248,242,.9);backdrop-filter:blur(14px);border-bottom:1px solid #e4ddd2}
+    .navin{max-width:1180px;margin:auto;padding:14px 22px;display:flex;align-items:center;justify-content:space-between}
+    .wordmark{font-family:"Playfair Display",serif;font-size:24px;letter-spacing:5px;font-weight:700}
+    .links{display:flex;gap:28px;font-size:13px;text-transform:uppercase;letter-spacing:1.6px}
+    .hero{min-height:78vh;display:grid;grid-template-columns:1.05fr .95fr;max-width:1180px;margin:auto;padding:55px 22px 35px;align-items:center;gap:40px}
+    .eyebrow{font-size:12px;letter-spacing:3px;text-transform:uppercase;color:var(--rust);font-weight:700}
+    h1{font-family:"Playfair Display",serif;font-size:clamp(55px,9vw,105px);line-height:.9;margin:17px 0 22px;letter-spacing:-3px}
+    .hero p{font-size:18px;line-height:1.7;color:var(--muted);max-width:520px}
+    .cta{display:inline-block;margin-top:18px;background:var(--ink);color:#fff;padding:15px 25px;border-radius:999px;font-size:13px;letter-spacing:1.5px;text-transform:uppercase}
+    .hero-art{background:var(--cream);border-radius:28px;padding:30px;display:flex;justify-content:center;align-items:center;min-height:520px;box-shadow:0 18px 50px rgba(35,25,15,.08)}
+    .hero-art img{max-width:100%;max-height:500px;object-fit:contain}
+    .section{max-width:1180px;margin:auto;padding:80px 22px}
+    .section h2{font-family:"Playfair Display",serif;font-size:48px;margin:0 0 12px}
+    .sub{color:var(--muted);max-width:620px;line-height:1.7}
+    .grid{display:grid;grid-template-columns:repeat(2,1fr);gap:22px;margin-top:35px}
+    .card{background:#fff;border:1px solid #e9e1d7;border-radius:22px;overflow:hidden}
+    .card img{width:100%;height:520px;object-fit:cover;display:block;background:#eee}
+    .cardbody{padding:22px}.cardbody h3{margin:0 0 7px;font-family:"Playfair Display",serif;font-size:27px}
+    .price{font-weight:700;font-size:17px}.small{color:var(--muted);font-size:13px;margin:9px 0 16px}
+    .buy{display:inline-block;background:var(--rust);color:#fff;padding:12px 19px;border-radius:999px;font-size:12px;letter-spacing:1px;text-transform:uppercase}
+    .story{background:var(--ink);color:#fff}.storyin{max-width:1180px;margin:auto;padding:90px 22px;display:grid;grid-template-columns:1fr 1fr;gap:70px}
+    .story h2{font-family:"Playfair Display",serif;font-size:52px;line-height:1.05}
+    .story p{color:#cfc6bc;line-height:1.8;font-size:16px}
+    .values{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:30px}.value{border:1px solid #403a34;padding:22px;border-radius:16px}.value b{display:block;margin-bottom:8px}
+    footer{padding:35px 22px;background:#0f0d0c;color:#bcb3aa;text-align:center;font-size:12px;letter-spacing:1px}
+    @media(max-width:800px){.links{display:none}.hero,.storyin{grid-template-columns:1fr}.hero{padding-top:35px}.hero-art{min-height:390px}.grid{grid-template-columns:1fr}.card img{height:430px}.values{grid-template-columns:1fr}.section h2{font-size:40px}}
+  </style>
+</head>
+<body>
+  <nav class="nav">
+    <div class="navin">
+      <a class="wordmark" href="#">TATATSHU</a>
+      <div class="links"><a href="#shop">Shop</a><a href="#story">Story</a><a href="#contact">Contact</a></div>
+    </div>
+  </nav>
+
+  <main>
+    <section class="hero">
+      <div>
+        <div class="eyebrow">Indian-rooted contemporary clothing</div>
+        <h1>Wear your<br>heritage.</h1>
+        <p>Premium streetwear inspired by Indian art, patterns and stories — designed for a new generation.</p>
+        <a class="cta" href="#shop">Explore the drop</a>
+      </div>
+      <div class="hero-art">
+        <img src="assets/logo.png" alt="TATATSHU logo">
+      </div>
+    </section>
+
+    <section class="section" id="shop">
+      <div class="eyebrow">The first drop</div>
+      <h2>Made to stand out.</h2>
+      <p class="sub">A statement oversized tee with detailed cultural artwork. Start with a small drop, test demand, then scale.</p>
+      <div class="grid">
+        <article class="card">
+          <img src="assets/shirt-front.jpg" alt="TATATSHU cultural graphic T-shirt front">
+          <div class="cardbody">
+            <h3>Heritage Graphic Tee</h3>
+            <div class="price">₹699</div>
+            <div class="small">Oversized fit · Black · Limited first drop</div>
+            <a class="buy" href="https://wa.me/?text=Hi%20TATATSHU%2C%20I%20want%20to%20order%20the%20Heritage%20Graphic%20Tee." target="_blank">Order on WhatsApp</a>
+          </div>
+        </article>
+        <article class="card">
+          <img src="assets/shirt-back.jpg" alt="TATATSHU cultural graphic T-shirt back">
+          <div class="cardbody">
+            <h3>Heritage Tee — Back Detail</h3>
+            <div class="price">₹699</div>
+            <div class="small">Same first-drop design · Front + back artwork</div>
+            <a class="buy" href="https://wa.me/?text=Hi%20TATATSHU%2C%20I%20want%20to%20order%20the%20Heritage%20Graphic%20Tee." target="_blank">Order on WhatsApp</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="story" id="story">
+      <div class="storyin">
+        <div>
+          <div class="eyebrow">Our story</div>
+          <h2>Rooted in ours.<br>Worn by tomorrow.</h2>
+        </div>
+        <div>
+          <p>TATATSHU is a young clothing label built around the idea that Indian visual culture can feel premium, contemporary and everyday.</p>
+          <div class="values">
+            <div class="value"><b>CULTURE</b><span>Stories that start from our roots.</span></div>
+            <div class="value"><b>CRAFT</b><span>Detail-led graphics and considered fits.</span></div>
+            <div class="value"><b>CHARACTER</b><span>Pieces made to feel unmistakably yours.</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="contact">
+      <div class="eyebrow">Stay connected</div>
+      <h2>Build the brand with us.</h2>
+      <p class="sub">Replace the WhatsApp link, Instagram handle and product details with your own before publishing.</p>
+      <a class="cta" href="https://instagram.com/" target="_blank">Instagram</a>
+    </section>
+  </main>
+
+  <footer>© 2026 TATATSHU CLOTHING · ROOTED IN OURS · WORN BY TOMORROW</footer>
+</body>
+</html>
